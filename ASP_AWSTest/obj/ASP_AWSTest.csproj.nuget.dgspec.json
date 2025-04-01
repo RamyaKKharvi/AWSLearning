@@ -1,0 +1,114 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Ramya.K\\Desktop\\Practice\\RamyaKKharvi\\AWSLearning\\ASP_AWSTest\\ASP_AWSTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Ramya.K\\Desktop\\Practice\\RamyaKKharvi\\AWSLearning\\ASP_AWSTest\\ASP_AWSTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ramya.K\\Desktop\\Practice\\RamyaKKharvi\\AWSLearning\\ASP_AWSTest\\ASP_AWSTest.csproj",
+        "projectName": "ASP_AWSTest",
+        "projectPath": "C:\\Users\\Ramya.K\\Desktop\\Practice\\RamyaKKharvi\\AWSLearning\\ASP_AWSTest\\ASP_AWSTest.csproj",
+        "packagesPath": "C:\\Users\\Ramya.K\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ramya.K\\Desktop\\Practice\\RamyaKKharvi\\AWSLearning\\ASP_AWSTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ramya.K\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AWS.Logger.AspNetCore": {
+              "target": "Package",
+              "version": "[3.5.3, )"
+            },
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.7.405.38, )"
+            },
+            "AWSSDK.Extensions.NETCore.Setup": {
+              "target": "Package",
+              "version": "[3.7.400, )"
+            },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.415.21, )"
+            },
+            "AWSSDK.SQS": {
+              "target": "Package",
+              "version": "[3.7.400.110, )"
+            },
+            "AWSSDK.SageMakerRuntime": {
+              "target": "Package",
+              "version": "[3.7.401.101, )"
+            },
+            "AWSSDK.SimpleEmail": {
+              "target": "Package",
+              "version": "[3.7.402.52, )"
+            },
+            "AWSSDK.SimpleNotificationService": {
+              "target": "Package",
+              "version": "[3.7.400.109, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
