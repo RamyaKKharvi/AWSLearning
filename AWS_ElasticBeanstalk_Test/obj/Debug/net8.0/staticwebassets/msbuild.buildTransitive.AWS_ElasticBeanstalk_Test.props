@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\AWS_ElasticBeanstalk_Test.props" />
+</Project>

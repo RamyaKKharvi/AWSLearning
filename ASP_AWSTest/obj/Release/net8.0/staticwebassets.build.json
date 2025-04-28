@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "3FPYGcLsPklSXXNyKFq8M5fJI3PlGe9HNHj9LF1F9fU=",
+  "Source": "ASP_AWSTest",
+  "BasePath": "_content/ASP_AWSTest",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

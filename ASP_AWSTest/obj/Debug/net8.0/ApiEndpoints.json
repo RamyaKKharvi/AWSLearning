@@ -1,0 +1,494 @@
+[
+  {
+    "ContainingType": "ASP_AWSTest.Controllers.DynamoDbController",
+    "Method": "GetCustomerOrdersByIdAsync",
+    "RelativePath": "dynamodb/customer/{customerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP_AWSTest.Controllers.DynamoDbController",
+    "Method": "DeleteCustomerByCustomerIdAsync",
+    "RelativePath": "dynamodb/customer/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP_AWSTest.Controllers.DynamoDbController",
+    "Method": "GetCustomerOrderByOrderIdAsync",
+    "RelativePath": "dynamodb/customer/order",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP_AWSTest.Controllers.DynamoDbController",
+    "Method": "CreateCustomerOrderAsync",
+    "RelativePath": "dynamodb/customer/order/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ASP_AWSTest.Request.CustomerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP_AWSTest.Controllers.DynamoDbController",
+    "Method": "GetAllCustomersOrderDetailsAsync",
+    "RelativePath": "dynamodb/customer/orders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP_AWSTest.Controllers.DynamoDbController",
+    "Method": "UpdateCustomerOrderDetailAsync",
+    "RelativePath": "dynamodb/customer/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CustomerId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CustomerFirstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CustomerLastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ItemDetail.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ItemDetail.Quantity",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ItemDetail.ItemType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ItemDetail.ItemSize",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ItemDetail.Color",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ItemDetail.Material",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ItemDetail.Brand",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ItemDetail.Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Amount",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP_AWSTest.Controllers.DynamoDbController",
+    "Method": "PartialUpdateCustomerOrderDetailAsync",
+    "RelativePath": "dynamodb/customer/update/partial",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "firstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "lastName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP_AWSTest.Controllers.S3Controller",
+    "Method": "CreateS3BucketAsync",
+    "RelativePath": "s3/create/bucket",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bucketName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP_AWSTest.Controllers.S3Controller",
+    "Method": "DeleteBucketAsync",
+    "RelativePath": "s3/delete/bucket",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bucketName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP_AWSTest.Controllers.S3Controller",
+    "Method": "DeleteFileAsync",
+    "RelativePath": "s3/delete/file",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bucketName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP_AWSTest.Controllers.S3Controller",
+    "Method": "DeleteFolderAsync",
+    "RelativePath": "s3/delete/folder",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bucketName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "directoryName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP_AWSTest.Controllers.S3Controller",
+    "Method": "DownloadFileToLocalFolderAsync",
+    "RelativePath": "s3/download/file-to-local",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bucketName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP_AWSTest.Controllers.S3Controller",
+    "Method": "GetDownloadFileAsync",
+    "RelativePath": "s3/download/filelink",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bucketName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP_AWSTest.Controllers.S3Controller",
+    "Method": "GetFileNamesFromBucketAsync",
+    "RelativePath": "s3/list/fileNames",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bucketName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP_AWSTest.Controllers.S3Controller",
+    "Method": "GetAllFilesInS3BucketAsync",
+    "RelativePath": "s3/list/files",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bucketName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP_AWSTest.Controllers.S3Controller",
+    "Method": "GetPreSignedUrlAsync",
+    "RelativePath": "s3/presigned-url",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bucketName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP_AWSTest.Controllers.S3Controller",
+    "Method": "UplaodFileAsync",
+    "RelativePath": "s3/upload/file",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bucketName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP_AWSTest.Controllers.S3Controller",
+    "Method": "UplaodFolderAsync",
+    "RelativePath": "s3/upload/folder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bucketName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "directoryPath",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP_AWSTest.Controllers.SageMakerController",
+    "Method": "CategorizeTextAsync",
+    "RelativePath": "sagemaker",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "text",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "endpointName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP_AWSTest.Controllers.SESController",
+    "Method": "SendEmailAsync",
+    "RelativePath": "ses/send-email",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recipientEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP_AWSTest.Controllers.SNSController",
+    "Method": "SendSnsEmailAsync",
+    "RelativePath": "sns/send-email",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "topicArn",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP_AWSTest.Controllers.SNSController",
+    "Method": "SendSnsSMSAsync",
+    "RelativePath": "sns/send-sms",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "phNo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP_AWSTest.Controllers.SQSController",
+    "Method": "SendQueueAsync",
+    "RelativePath": "sqs/queue",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "QueueUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
